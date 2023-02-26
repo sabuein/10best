@@ -1,0 +1,153 @@
+{
+    "version": 2,
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "slug": "black",
+                    "color": "#000000",
+                    "name": "Black"
+                },
+                {
+                    "slug": "purple",
+                    "color": "#D1D1E4",
+                    "name": "Purple"
+                },
+                {
+                    "slug": "yellow",
+                    "color": "#EEEADD",
+                    "name": "Yellow"
+                }
+            ],
+            "gradients": [
+                {
+                    "slug": "purple-to-yellow",
+                    "gradient": "linear-gradient(160deg, var(--wp--preset--color--purple), var(--wp--preset--color--yellow))",
+                    "name": "Purple to Yellow"
+                }
+            ],
+            "duotone": [
+                {
+                    "slug": "purple-and-yellow",
+                    "colors": [
+                        "#D1D1E4",
+                        "#EEEADD"
+                    ],
+                    "name": "Purple and yellow"
+                }
+            ]
+        },
+        "typography": {
+            "fontSizes": [
+                {
+                    "slug": "small",
+                    "size": "1rem",
+                    "name": "Small"
+                },
+                {
+                    "slug": "medium",
+                    "size": "1.5rem",
+                    "name": "Medium"
+                },
+                {
+                    "slug": "large",
+                    "size": "2rem",
+                    "name": "Large"
+                }
+            ],
+            "lineHeight": ""
+        },
+        "layout": {
+            "contentSize": "840px",
+            "wideSize": "1100px"
+        },
+        "spacing": {
+            "margin": true,
+            "padding": true,
+            "units": [
+                "px",
+                "em",
+                "rem",
+                "vh",
+                "vw",
+                "%"
+            ],
+            "spacingScale": {
+                "operator": "+",
+                "increment": 0.25,
+                "steps": 5,
+                "mediumStep": 0.75,
+                "unit": "rem"
+            },
+            "spacingSizes": [
+                {
+                    "name": "Step 1",
+                    "size": ".25rem",
+                    "slug": "10"
+                },
+                {
+                    "name": "Step 2",
+                    "size": ".5rem",
+                    "slug": "20"
+                },
+                {
+                    "name": "Step 3",
+                    "size": ".75rem",
+                    "slug": "30"
+                },
+                {
+                    "name": "Step 4",
+                    "size": "1rem",
+                    "slug": "40"
+                },
+                {
+                    "name": "Step 5",
+                    "size": "1.25rem",
+                    "slug": "50"
+                }
+            ],
+            "custom": {
+                "fruit": "apple"
+            }
+        },
+        "templateParts": [
+            {
+                "name": "header",
+                "title": "Header",
+                "area": "header"
+            },
+            {
+                "name": "footer",
+                "title": "Footer",
+                "area": "footer"
+            }
+        ],
+        "blocks": {
+            "core/group": {
+                "color": {},
+                "typography": {}
+            },
+            "core/heading": {
+                "spacing": {
+                    "margin": {
+                        "top": "var(--wp--preset--spacing--60)",
+                        "bottom": "var(--wp--preset--spacing--40)"
+                    }
+                }
+            },
+            "core/paragraph": {
+                "color": {
+                    "palette": [
+                        {
+                            "slug": "blue",
+                            "color": "#0000FF",
+                            "name": "Blue"
+                        }
+                    ]
+                },
+                "custom": {
+                    "fruit": "pear"
+                }
+            }
+        }
+    }

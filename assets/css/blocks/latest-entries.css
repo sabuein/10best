@@ -1,0 +1,4 @@
+.wp-block-latest-entries__entry-date {
+	color: var(--wp--preset--color--primary);
+	font-size: var(--wp--preset--font-size--small);
+}
