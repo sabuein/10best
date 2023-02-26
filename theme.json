@@ -79,33 +79,6 @@
                 "mediumStep": 0.75,
                 "unit": "rem"
             },
-            "spacingSizes": [
-                {
-                    "name": "Step 1",
-                    "size": ".25rem",
-                    "slug": "10"
-                },
-                {
-                    "name": "Step 2",
-                    "size": ".5rem",
-                    "slug": "20"
-                },
-                {
-                    "name": "Step 3",
-                    "size": ".75rem",
-                    "slug": "30"
-                },
-                {
-                    "name": "Step 4",
-                    "size": "1rem",
-                    "slug": "40"
-                },
-                {
-                    "name": "Step 5",
-                    "size": "1.25rem",
-                    "slug": "50"
-                }
-            ],
             "custom": {
                 "fruit": "apple"
             }
