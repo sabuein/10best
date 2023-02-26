@@ -1,16 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- wp:template-part {"slug":"header"} /-->
-</head>
-<body>
-    <!-- wp:heading /-->
-    <!-- wp:search {"label":"Search","buttonText":"Search"} /-->
-    <p>(your page content)</p>
-    <!-- wp:template-part {"slug":"footer"} /-->
-</body>
-</html>
+<!-- wp:navigation /-->
+
+<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+
+<!-- wp:query {"queryId":1,"query":{"offset":0,"postType":"post","categoryIds":[],"tagIds":[],"order":"desc","orderBy":"date","author":"","search":"","sticky":""}} -->
+<!-- wp:post-template -->
+<!-- wp:post-title {"isLink":true} /-->
+
+<!-- wp:post-excerpt /-->
+<!-- /wp:post-template -->
+<!-- /wp:query -->

@@ -25,4 +25,5 @@ Theme Test Data -Formerly Theme Unit Test https://github.com/WPTT/theme-test-dat
 Theme Check https://wordpress.org/plugins/theme-check/
 
 # Resources
+https://developer.wordpress.org/themes/block-themes/templates-and-template-parts/#block-markup
 https://developer.wordpress.org/themes/advanced-topics/theme-json/

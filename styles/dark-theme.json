@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "title": "Dark",
+    "styles": {
+        "color": {
+            "background": "black",
+            "text": "white"
+        }
+    }
+}
