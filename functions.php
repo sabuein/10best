@@ -20,4 +20,14 @@ function tenbest_scripts()
     wp_enqueue_style("tenbest-style", get_template_directory_uri() . "/style.css", array(), wp_get_theme()->get("Version"));
 }
 
+// // Prevent WP from adding <p> tags on all post types
+// function disable_wpautop($content)
+// {
+//     remove_filter("the_content", "wpautop");
+//     remove_filter("the_excerpt", "wpautop");
+//     return $content;
+// }
+
+// add_filter("the_content", "disable_wpautop", 0);
+
 add_action("wp_enqueue_scripts", "tenbest_scripts");

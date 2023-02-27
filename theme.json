@@ -1,4 +1,5 @@
 {
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
     "version": 2,
     "settings": {
         "appearanceTools": true,
@@ -64,7 +65,7 @@
         },
         "layout": {
             "contentSize": "840px",
-            "wideSize": "1100px"
+            "wideSize": "1440px"
         },
         "spacing": {
             "margin": true,
@@ -89,29 +90,6 @@
             },
             "customSpacingSize": false
         },
-        "templateParts": [
-            {
-                "name": "header",
-                "title": "Header",
-                "area": "header"
-            },
-            {
-                "name": "footer",
-                "title": "Footer",
-                "area": "footer"
-            }
-        ],
-        "customTemplates": [
-            {
-                "name": "page-home",
-                "title": "Page without title"
-            },
-            {
-                "name": "page-contact",
-                "title": "Contact",
-                "postTypes": [ "page" ]
-            }
-        ],
         "blocks": {
             "core/group": {
                 "color": {},
@@ -141,7 +119,7 @@
             }
         }
     },
-    "style": {
+    "styles": {
         "color": {
             "background": "var(--wp--preset--color--white)",
             "text": "var(--wp--preset--color--black)"
@@ -188,5 +166,41 @@
                 }
             }
         }
-    }
+    },
+    "templateParts": [
+        {
+            "name": "header",
+            "title": "Header",
+            "area": "header"
+        },
+        {
+            "name": "footer",
+            "title": "Footer",
+            "area": "footer"
+        },
+        {
+            "name": "loop-x10",
+            "title": "Loop x10",
+            "area": "uncategorized"
+        },
+        {
+            "name": "content",
+            "title": "Content",
+            "area": "uncategorized"
+        },
+        {
+            "name": "sidebar",
+            "title": "Sidebar",
+            "area": "uncategorized"
+        }
+    ],
+    "customTemplates": [
+        {
+            "name": "page-contact",
+            "title": "Contact",
+            "postTypes": [
+                "page"
+            ]
+        }
+    ]
 }
