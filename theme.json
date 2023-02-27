@@ -6,36 +6,61 @@
         "color": {
             "palette": [
                 {
+                    "slug": "white",
+                    "color": "#ffffff",
+                    "name": "White"
+                },
+                {
                     "slug": "black",
                     "color": "#000000",
                     "name": "Black"
                 },
                 {
-                    "slug": "purple",
-                    "color": "#D1D1E4",
-                    "name": "Purple"
+                    "slug": "darkpink",
+                    "color": "#fc115c",
+                    "name": "Dark pink"
                 },
                 {
                     "slug": "yellow",
-                    "color": "#EEEADD",
+                    "color": "#eeeadd",
                     "name": "Yellow"
+                },
+                {
+                    "slug": "lucentlime",
+                    "color": "#27d04c",
+                    "name": "Lucent lime"
+                },
+                {
+                    "slug": "darkblue",
+                    "color": "#5c33ff",
+                    "name": "Dark blue"
+                },
+                {
+                    "slug": "cyanblue",
+                    "color": "#f3f4f6",
+                    "name": "Cyan blue"
+                },
+                {
+                    "slug": "suvagrey",
+                    "color": "#939393",
+                    "name": "Suva grey"
                 }
             ],
             "gradients": [
                 {
-                    "slug": "purple-to-yellow",
-                    "gradient": "linear-gradient(160deg, var(--wp--preset--color--purple), var(--wp--preset--color--yellow))",
-                    "name": "Purple to Yellow"
+                    "slug": "darkpink-to-yellow",
+                    "gradient": "linear-gradient(160deg, var(--wp--preset--color--darkpink), var(--wp--preset--color--yellow))",
+                    "name": "Dark pink to Yellow"
                 }
             ],
             "duotone": [
                 {
-                    "slug": "purple-and-yellow",
+                    "slug": "darkpink-and-yellow",
                     "colors": [
-                        "#D1D1E4",
-                        "#EEEADD"
+                        "#fc115c",
+                        "#eeeadd"
                     ],
-                    "name": "Purple and yellow"
+                    "name": "Dark pink and yellow"
                 }
             ],
             "custom": false,
@@ -60,7 +85,7 @@
                     "size": "1rem",
                     "name": "Small",
                     "fluid": {
-                        "min": ".875rem",
+                        "min": "0.875rem",
                         "max": "1rem"
                     }
                 },
