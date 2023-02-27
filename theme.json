@@ -43,25 +43,49 @@
             "link": true
         },
         "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "DM Sans",
+                    "fontStretch": "normal",
+                    "fontStyle": "normal",
+                    "fontWeight": "400",
+                    "src": [
+                        "file:./assets/fonts/dm-sans/DMSans-Regular.woff2"
+                    ]
+                }
+            ],
             "fontSizes": [
                 {
                     "slug": "small",
                     "size": "1rem",
-                    "name": "Small"
+                    "name": "Small",
+                    "fluid": {
+                        "min": ".875rem",
+                        "max": "1rem"
+                    }
                 },
                 {
                     "slug": "medium",
-                    "size": "1.5rem",
-                    "name": "Medium"
+                    "size": "1.25rem",
+                    "name": "Medium",
+                    "fluid": {
+                        "min": "1rem",
+                        "max": "1.25rem"
+                    }
                 },
                 {
                     "slug": "large",
-                    "size": "2rem",
-                    "name": "Large"
+                    "size": "1.5rem",
+                    "name": "Large",
+                    "fluid": {
+                        "min": "1.25rem",
+                        "max": "1.5rem"
+                    }
                 }
             ],
             "lineHeight": true,
-            "dropCap": false
+            "dropCap": false,
+            "fluid": true
         },
         "layout": {
             "contentSize": "840px",
@@ -85,10 +109,11 @@
                 "mediumStep": 0.75,
                 "unit": "rem"
             },
-            "custom": {
-                "fruit": "apple"
-            },
             "customSpacingSize": false
+        },
+        "useRootPaddingAwareAlignments": true,
+        "custom": {
+            "fruit": "apple"
         },
         "blocks": {
             "core/group": {
@@ -96,12 +121,7 @@
                 "typography": {}
             },
             "core/heading": {
-                "spacing": {
-                    "margin": {
-                        "top": "var(--wp--preset--spacing--60)",
-                        "bottom": "var(--wp--preset--spacing--40)"
-                    }
-                }
+                "spacing": {}
             },
             "core/paragraph": {
                 "color": {
@@ -196,9 +216,10 @@
     ],
     "customTemplates": [
         {
-            "name": "page-contact",
+            "name": "contact",
             "title": "Contact",
             "postTypes": [
+                "post",
                 "page"
             ]
         }

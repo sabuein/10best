@@ -19,6 +19,7 @@ function tenbest_scripts()
     // Enqueue theme stylesheet.
     wp_enqueue_style("tenbest-style", get_template_directory_uri() . "/style.css", array(), wp_get_theme()->get("Version"));
 }
+add_action("wp_enqueue_scripts", "tenbest_scripts");
 
 // // Prevent WP from adding <p> tags on all post types
 // function disable_wpautop($content)
@@ -30,4 +31,3 @@ function tenbest_scripts()
 
 // add_filter("the_content", "disable_wpautop", 0);
 
-add_action("wp_enqueue_scripts", "tenbest_scripts");
